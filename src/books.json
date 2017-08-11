@@ -1,0 +1,81 @@
+{ "books": [
+    {
+        "id": 2,
+        "name": "The Sellout",
+        "award" : "booker",
+        "price": 12.50,
+        "year_won" : 2016,
+        "blurb" : "Born in the ‘agrarian ghetto’ of Dickens on the southern outskirts of Los Angeles and raised by a single father, a controversial sociologist, the narrator of The Sellout spent his childhood as the subject in racially charged psychological studies. He is led to believe his father’s pioneering work will result in a memoir that will solve his family's financial woes. But when his father is killed in a police shoot-out, he realises there never was a memoir. All that’s left is the bill for a drive-through funeral.Fuelled by this deceit and the general disrepair of his hometown, the narrator sets out to right another wrong: Dickens has literally been removed from the map to save California from further embarrassment. Enlisting the help of the town’s most famous resident – Hominy Jenkins – he initiates the most outrageous action conceivable: reinstating slavery and segregating the local high school which lands him in the Supreme Court.What follows is a remarkable journey that challenges the sacred tenets of the United States Constitution, urban life, the civil rights movement and the holy grail of racial equality – the black Chinese restaurant. " ,
+        "publish_date": "March 3, 2015",
+        "author" : "Paul Beatty"   
+    },
+    {
+        "id": 3,
+        "name": " A Brief History of Seven Killings",
+        "award" : "booker",
+        "price": 12.50,
+        "year_won" : 2015,
+        "blurb" : "On 3 December 1976, just weeks before the general election and two days before Bob Marley was to play the Smile Jamaica concert to ease political tensions, seven men from West Kingston stormed his house with machine guns. Marley survived and went on to perform at the free concert. But the next day he left the country and didn’t return for two years. Inspired by this near-mythic event, A Brief History of Seven Killings takes the form of an imagined oral biography, told by ghosts, witnesses, killers, members of parliament, drug dealers, conmen, beauty queens, FBI and CIA agents, reporters, journalists, and even Keith Richards' drug dealer. The story traverses strange landscapes and shady characters, as motivations are examined – and questions asked",
+        "publish_date": "October 2, 2014",
+        "author" : "Marlon James"   
+    },
+    {
+        "id": 4,
+        "name": " The Narrow Road to the Deep North",
+        "award" : "booker",
+        "price": 12.50,
+        "year_won" : 2014,
+        "blurb" : "The Narrow Road to the Deep North is a love story unfolding over half a century between a doctor and his uncle’s wife. Taking its title from one of the most famous books in Japanese literature, written by the great haiku poet Basho, Flanagan’s novel has as its heart one of the most infamous episodes of Japanese history, the construction of the Thailand-Burma Death Railway in World War II. In the despair of a Japanese POW camp on the Death Railway, surgeon Dorrigo Evans is haunted by his love affair with his uncle’s young wife two years earlier. Struggling to save the men under his command from starvation, from cholera, from beatings, he receives a letter that will change his life forever.",
+        "publish_date": "September 23, 2013",
+        "author" : "Richard Flanagan",
+        "jacket_name":"narrow_road.png"
+    },
+    {
+        "id": 5,
+        "name": " The Luminaries",
+        "award" : "booker",
+        "price": 12.50,
+        "year_won" : 2013,
+        "blurb" : "It is 1866, and Walter Moody has come to make his fortune upon the New Zealand goldfields.  On arrival, he stumbles across a tense gathering of twelve local men, who have met in secret to discuss a series of unsolved crimes.  A wealthy man has vanished, a whore has tried to end her life, and an enormous fortune has been discovered in the home of a luckless drunk.  Moody is soon drawn into the mystery: a network of fates and fortunes that is as complex and exquisitely patterned as the night sky.",
+        "publish_date": "August 2013",
+        "author" : "Eleanor Catton",
+        "jacket_name":"narrow_road.png"
+    },
+    {
+        "id": 6,
+        "name": " Bring up the Bodies",
+        "award" : "booker",
+        "price": 12.50,
+        "year_won" : 2012,
+        "blurb" : "The year is 1535 and Thomas Cromwell, chief Minister to Henry VIII, must work both to please the king and keep the nation safe. Anne Boleyn, for whose sake Henry has broken with Rome and created his own church, has failed to do what she promised: bear a son to secure the Tudor line. As Henry develops a dangerous attraction to Wolf Hall’s Jane Seymour, Thomas must negotiate a ‘truth’ that will satisfy Henry and secure his own career. But neither minister nor king will emerge undamaged from the bloody theatre of Anne’s final days.",
+        "publish_date": "May 8, 2012",
+        "author" : "Hilary Mantel",
+        "jacket_name":"narrow_road.png"
+    },
+    {
+        "id": 7,
+        "name": " The Sense of an Ending",
+        "award" : "booker",
+        "price": 12.50,
+        "year_won" : 2011,
+        "blurb" : "A truly wonderful novel that will have the reader immersed in the story from the very first page, and all the while marvelling at the precision of Barnes’ prose.Tony Webster and his clique first met Adrian Finn at school. Sex-hungry and book-hungry, they would navigate the girl-less sixth form together, trading in affectations, in-jokes, rumour and wit. Maybe Adrian was a little more serious than the others, certainly more intelligent, but they all swore to stay friends for life. Now Tony is in middle age. He’s had a career and a single marriage, a calm divorce. He’s certainly never tried to hurt anybody. Memory, though, is imperfect. It can always throw up surprises, as a lawyer’s letter is about to prove. The Sense of an Ending is the story of one man coming to terms with the mutable past. Laced with trademark precision, dexterity and insight, it is the work of one of the world’s most distinguished writers.",
+        "publish_date": "2011",
+        "author" : "Julian Barnes",
+        "jacket_name":"narrow_road.png"
+    },
+    {
+        "id": 8,
+        "name": "The Finkler Question",
+        "award" : "booker",
+        "price": 12.50,
+        "year_won" : 2010,
+        "blurb" : "'He should have seen it coming. His life had been one mishap after another. So he should have been prepared for this one…’ Julian Treslove, a professionally unspectacular former BBC radio producer, and Sam Finkler, a popular Jewish philosopher, writer and television personality, are old school friends. Despite a prickly relationship and very different lives, they’ve never quite lost touch with each other - or with their former teacher, Libor Sevcik, a Czech always more concerned with the wider world than with exam results. Now, both Libor and Sam are recently widowed, and with Treslove, his chequered and unsuccessful record with women rendering him an honorary third widower, they dine at Libor’s grand, central London apartment. It’s a sweetly painful evening of reminiscence in which all three remove themselves to a time before they had loved and lost; a time before they had fathered children, before the devastation of separations, before they had prized anything greatly enough to fear the loss of it. Better, perhaps, to go through life without knowing happiness at all because that way you have less to mourn? Treslove finds he has tears enough for the unbearable sadness of both his friends’ losses. And it’s that very evening, at exactly 11:30, as Treslove, walking home, hesitates a moment outside the window of the oldest violin dealer in the country, that he is attacked. And after this, his whole sense of who and what he is will slowly and ineluctably change. The Finkler Question is a scorching story of friendship and loss, exclusion and belonging, and of the wisdom and humanity of maturity. Funny, furious, unflinching, this extraordinary novel shows one of our finest writers at his brilliant best.",
+        "publish_date": "August 2, 2010",
+        "author" : "Howard Jacobson",
+        "jacket_name":"narrow_road.png" 
+    }
+   
+   
+  ]
+}
+   
