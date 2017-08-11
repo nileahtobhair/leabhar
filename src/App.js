@@ -30,8 +30,8 @@ class PrizeList extends Component {
                 var jacket = book.jacket_name ? main.state.jackets[book.jacket_name] : undefined;
                 return (
                   <div key={'booker'+index} className='entry'>
-                    { jacket != undefined ?
-                      <img src={jacket} />
+                    { jacket !== undefined ?
+                      <img src={jacket} alt={"Book Jacket for "+book.name} />
                     : null }
                     <div className='information'>
                       <h3>{book.name}</h3>
@@ -47,5 +47,7 @@ class PrizeList extends Component {
     );
   }
 }
+
+
 
 export default PrizeList;
