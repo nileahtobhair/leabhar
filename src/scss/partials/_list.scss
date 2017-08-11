@@ -1,17 +1,35 @@
 
-.prize-list{
+.prize{
 	letter-spacing : 0.7px;
 	width : 80%;
+	color:#fff;
+	display:block;
 	font-family: gotham;
-	border:1px solid black;
 	margin: 0 auto;
 	line-height:25px;
 	h4,h3,h2 {
 		text-align: center;
+		display: block;
+		margin: 0 0 5px 0;
 	}
-	.prize-entry{
-		border:1px solid red;
-		margin-bottom:15px;
-
+	.explanation{
+		margin:40px 0;
+	}
+	.entry{
+		margin-bottom:25px;
+		display:flex;
+		flex-direction: row;
+		align-items:stretch;
+		padding:5px;
+		img{
+			max-height:400px;
+		}
+		.information{
+			padding:0px 20px;
+			display: flex;
+  			flex-direction: column;
+  			justify-content: space-between;
+  			font-size:13px;
+		}
 	}
 }

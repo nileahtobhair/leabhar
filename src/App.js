@@ -3,19 +3,42 @@ import './scss/_main.scss';
 import books from './books.json';
 
 class PrizeList extends Component {
+
+  /* Load jacket images dynamically */
+  get_jackets(r) {
+    let images = {};
+    r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); return 0; });
+    return images;
+  }
+  /* Set intial state and load the images needed . */
+  constructor(){
+    super();
+    var images = this.get_jackets(require.context('./jackets', false, /\.(png|jpe?g|svg)$/));
+     this.state = {
+      jackets : images
+    }
+  }
+
   render() {
-   
+    var main = this;
     return (
-      <div className="prize-list">
-      <h3>The Man Booker Prize for Fiction </h3>
-      <div> The Booker Prize is a literary award , awarded each year for best original novel published in the United Kingdom</div>
+      <div className="prize">
+      <h2>The Man Booker Prize for Fiction </h2>
+      <div className='explanation'> The Booker Prize is a literary award , awarded each year for best original novel written in the English language and published in the United Kingdom. The Man Booker Prize was established in 1969. The winner receives £50,000 as well as the £2,500 awarded to each of the shortlisted authors</div>
         <div>
-            {books.books.map((book,index) =>{
+            {books.books.map((book,index) => { 
+                var jacket = book.jacket_name ? main.state.jackets[book.jacket_name] : undefined;
                 return (
-                  <div key={'booker'+index} className='prize-entry'>
-                    <h3>{book.name}</h3>
-                    <div>{book.author}</div>
-                    <div>{book.blurb}</div>
+                  <div key={'booker'+index} className='entry'>
+                    { jacket != undefined ?
+                      <img src={jacket} />
+                    : null }
+                    <div className='information'>
+                      <h3>{book.name}</h3>
+                      <div>{book.author}</div>
+                      <div>Year Won : {book.year_won}</div>
+                      <div>{book.blurb}</div>
+                    </div>  
                   </div>
                 )
             })}
