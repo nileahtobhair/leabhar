@@ -119,8 +119,210 @@
         "publish_date": "August 31, 2006",
         "author" : "Kiran Desai",
         "jacket_name":"inheritance_loss.jpg" 
+    },
+    {
+        "id": 13,
+        "name": "The Sea",
+        "award" : "booker",
+        "price": 12.50,
+        "year_won" : 2005,
+        "blurb" : "Led back to Ballyless by a dream, Max Morden is both escaping from a recent loss and confronting a distant trauma in the coastal town where he spent a holiday in his youth. The Grace family appeared that long-ago summer as if from another world. Drawn to the Grace twins, Chloe and Myles, Max soon found himself entangled in their lives which were as seductive as they were unsettling. What ensued haunts him for the rest of his years and shapes everything that is to follow.",
+        "publish_date": "May 17, 2005",
+        "author" : "John Banville",
+        "jacket_name":"the_sea.jpg" 
+    },
+    {
+        "id": 14,
+        "name": "The Line Of Beauty",
+        "award" : "booker",
+        "price": 12.50,
+        "year_won" : 2004,
+        "blurb" : "It is the summer of 1983, and young Nick Guest has moved into an attic room in the Notting Hill home of the Feddens: Gerald, an ambitious new Tory MP, his wealthy wife Rachel, and their children. As the boom-years of the mid-80s unfold, Nick, an innocent in matters of politics and money, becomes caught up in the Feddens’ world, with its grand parties, its holidays in the Dordogne, its parade of monsters both comic and threatening. An affair with a young black clerk gives him his first experience of romance; but it is a later affair, with a beautiful millionaire, that will change his life more drastically and bring into question the larger fantasies of a ruthless decade. The Line of Beauty was adapted into a three part television series by the BBC and aired on BBC Two in May 2006.",
+        "publish_date": "2004",
+        "author" : "Alan Hollinghurst",
+        "jacket_name":"line_of_beauty.jpg" 
+    },
+    {
+        "id": 13,
+        "name": "Vernon God Little",
+        "award" : "booker",
+        "price": 12.50,
+        "year_won" : 2003,
+        "blurb" : "Vernon Gregory Little has secrets – but none of them, or so he assumes, have anything to do with the recent massacre of sixteen students at his high school. What he cannot see is that the quirky Texan backwater of Martirio is unable to face its role in the tragedy, and has become a deadly crucible as all eyes turn on Vernon. The media, his mother’s social circle, and the increasingly prosperous townsfolk lead Vernon a merry dance of self-incrimination, as he flees to Mexico and is captured and put on trial as Texas’ most notorious serial killer. Then on the afternoon of his execution, Vernon conceives a wholly modern solution to his dilemma – one that calls for the greatest crime of all.",
+        "publish_date": "January 20, 2003",
+        "author" : "DBC Pierre",
+        "jacket_name":"vernon_god_little.jpg" 
+    },
+    {
+        "id": 14,
+        "name": "Life Of Pie",
+        "award" : "booker",
+        "price": 12.50,
+        "year_won" : 2002,
+        "blurb" : "The story of Pi (short for Piscine), an unusual boy brought up on a zoo in India. Pi’s father decides to move the family to live in Canada and sell the animals to the great zoos of America. The ship taking them across the Pacific sinks and Pi finds himself on a lifeboat with a hyena, an orang-utan, a zebra with a broken leg and a Bengal tiger called Richard Parker.",
+        "publish_date": "September 2001",
+        "author" : "Yann Martel",
+        "jacket_name":"life_of_pie.jpg" 
+    },
+    {
+        "id": 15,
+        "name": "True History of the Kelly Gang",
+        "award" : "booker",
+        "price": 12.50,
+        "year_won" : 2001,
+        "blurb" : "True History of the Kelly Gang is the song of Australia, and it sings its protest in Ned Kelly’s voice. Carey gives us Ned Kelly as orphan, Oedipus, horse thief, farmer, bushranger, reformer, bank-robber, police-killer and finally, his country’s beloved Robin Hood. By the time of his hanging in 1880 a whole country would seem to agree that he was ‘the best bloody man that has ever been in Benalla’. Carey skillfully makes art from his country’s great story and helps us all to understand the measure of that ‘best bloody man’.",
+         "publish_date": "2000",
+        "author" : "Peter Carey",
+        "jacket_name":"kelly_gang.jpg" 
+    },
+    {
+        "id": 16,
+        "name": "The Blind Assassin",
+        "award" : "booker",
+        "price": 12.50,
+        "year_won" : 2000,
+        "blurb" : "Iris Chase, married at eighteen to a politically prominent industrialist, but now eighty-two and poor, is living in Port Ticonderoga, a town dominated by her once-prosperous family. While bewailing her unreliable body and deriding those who try to help her, Iris reflects on her far from exemplary life and her perilous times, particularly on the events surrounding her sister Laura’s mysterious, tragic early death.",
+        "publish_date": "September 2, 2000",
+        "author" : "Margaret Atwood",
+        "jacket_name":"bind_assassin.jpg" 
+    },
+    {
+        "id": 17,
+        "name": "Disgrace",
+        "award" : "booker",
+        "price": 12.50,
+        "year_won" : 1999,
+        "blurb" : "Refusing to apologise after an impulsive affair with a student, David Lurie, a 52 year old professor in Cape Town, seeks refuge on his daughter’s farm where a savage and disturbing attack brings into relief the faults in their relationship. Pitching the moral code of political correctness against the values of Romantic poetry, Disgrace examines dichotomies both in personal relationships and in the unaccountability of one culture towards another.",
+        "publish_date": "July 1, 1999",
+        "author" : "J.M. Coetzee",
+        "jacket_name":"disgrace.jpg" 
+    },
+    {
+        "id": 18,
+        "name": "Amsterdam",
+        "award" : "booker",
+        "price": 12.50,
+        "year_won" : 1998,
+        "blurb" : "Gorgeous, feisty Molly Lane had many lovers, among them Clive Linley, Britain’s most famous composer, Vernon Halliday, editor of a respected broadsheet, and Julian Garmony, Foreign Secretary and tipped to be the next prime minister. When Clive and Vernon meet to pay their last respects to Molly at her funeral, they make a pact that will have unforeseen and profound consequences for everyone concerned.",
+        "publish_date": "December 1, 1998",
+        "author" : "Ian McEwan",
+        "jacket_name":"amsterdam.jpg" 
+    },
+    {
+        "id": 19,
+        "name": "The God of Small Things",
+        "award" : "booker",
+        "price": 12.50,
+        "year_won" : 1997,
+        "blurb" : "Set in Kerala in the 1960s, The God of Small Things is about two children, Estha and Rahel, and the shocking consequences of a pivotal event in their young lives, the accidental death-by-drowning of a visiting English cousin. In magical and poetic language, the novel paints a vivid picture of life in a small rural Indian town, the thoughts and feelings of the two small children, and the complexity and hypocrisy of the adults in their world. It is also a poignant lesson in the destructive power of the caste system and moral and political bigotry in general.",
+        "publish_date": "1997",
+        "author" : "Arundhati Roy",
+        "jacket_name":"small_things.jpg" 
+    },
+    {
+        "id": 20,
+        "name": "Last Orders",
+        "award" : "booker",
+        "price": 12.50,
+        "year_won" : 1996,
+        "blurb" : "Four men gather in a London pub. They have taken it upon themselves to carry out the last orders of Jack Dodds, master butcher, and deliver his ashes to the sea. As they drive towards the fulfilment of their mission, their errand becomes an extraordinary journey into their collective and individual pasts. Braiding these men’s voices, and that of Jack’s widow, into a choir of sorrow and resentment, passion and regret, Swift creates a testament to a changing England and to enduring mortality.",
+        "publish_date": "January 26, 1996",
+        "author" : "Graham Swift",
+        "jacket_name":"last_orders.jpg",
+        "rating" : ""
+    },
+    {
+        "id": 21,
+        "name": "The Ghost Road",
+        "award" : "booker",
+        "price": 12.50,
+        "year_won" : 1995,
+        "publisher": "Penguin",
+        "blurb" : "1918, and Billy Prior is in France once again. A real test case for the ‘shell-shock’ therapies practised at Craiglockhart War Hospital where, with Wilfred Owen, he was a patient. Prior experiences a late-summer idyll, some days of perfect beauty, before the final battles in a war that has destroyed most of his generation. In London, Prior’s psychologist, William Rivers, tends to his new patients, more young men whose lives and minds have been shattered. And remembers the primitive society on Eddystone Island where he studied as an anthropologist before the war.",
+        "publish_date": "1995",
+        "author" : "Pat Barker",
+        "jacket_name":"ghost_road.jpg",
+        "rating" : ""
+    },
+    {
+        "id": 22,
+        "name": "How Late It Was, How Late",
+        "award" : "booker",
+        "price": 12.50,
+        "year_won" : 1994,
+        "publisher": "Penguin",
+        "blurb" : "A raw, wry vision of human survival in a bureaucratic world, How Late It Was, How Late opens one Sunday morning in Glasgow, Scotland, as Sammy, an ex-convict with a penchant for shoplifting, awakens in a lane and tries to remember the two-day drinking binge that landed him there. Then, things only get worse. Sammy gets in a fight with some soldiers, lands in jail, and discovers that he is completely blind. His girlfriend disappears, the police probe him endlessly, and his stab at Disability Compensation embroils him in the Kafkaesque red tape of the welfare system.",
+        "publish_date": "1994",
+        "author" : "James Kelman",
+        "jacket_name":"how_late.jpg",
+        "rating" : ""
+    },
+    {
+        "id": 23,
+        "name": "Paddy Clarke Ha Ha Ha",
+        "award" : "booker",
+        "price": 12.50,
+        "year_won" : 1993,
+        "publisher": "Penguin",
+        "blurb" : "It is 1968. Patrick Clarke is ten. He loves Geronimo, the Three Stooges, and the smell of his hot water bottle. He can’t stand his little brother Sinbad. His best friend is Kevin, and their names are all over Barrytown, written with sticks in wet cement. They play football, lepers, and jumping to the bottom of the sea. But why didn’t anyone help him when Charles Leavy had been trying to kill him? Paddy sees everything, but he understands less and less.",
+        "publish_date": "1993",
+        "author" : "Roddy Doyle",
+        "jacket_name":"paddy_clarke.jpg",
+        "rating" : ""
+    },
+    {
+        "id": 24,
+        "name": "The English Patient",
+        "award" : "booker",
+        "price": 12.50,
+        "year_won" : 1992,
+        "publisher": "Penguin",
+        "blurb" : "Set in 1945, The English Patient explores the lives of four very disparate war torn people, a young woman and three men, who take refuge in a damaged villa north of Florence as the war retreats around them. In an upstairs room lies the badly burned English patient, alive but unable to move. His extraordinary adventures and turbulent love affair in the North African desert before the war provide the focus around which the vivid tales of his companions revolve. His very presence will forever change the destiny of those around him.",
+        "publish_date": "September 1992",
+        "author" : "Michael Ondaatje",
+        "jacket_name":"english_patient.jpg",
+        "rating" : ""
+    },
+    {
+        "id": 25,
+        "name": "Sacred Hunger",
+        "award" : "booker",
+        "price": 12.50,
+        "year_won" : 1992,
+        "publisher": "Penguin",
+        "blurb" : "A blasphemous outcast, Matthew Paris boards the “Liverpool Merchant” as ship’s doctor as it embarks on a mercantile voyage in the slave trade. An illness breaks out among the slaves and crew between Guinea and the West Indies, and slaves are ordered to be tossed overboard in order to claim the insurance. Illness gives rise to mutiny, the captain is killed, and, with Paris as one of the leaders, the ship sails for Florida to establish an egalitarian, interracial society. Meanwhile, back in Liverpool, the loss of the ship has financially ruined its owner, Kemp, who hangs himself. Twelve years later, upon hearing rumours of a utopian community of blacks and whites in Florida, Kemp’s son sets out for revenge.",
+        "publish_date": "February 27, 1992",
+        "author" : "Barry Unsworth",
+        "jacket_name":"sacred_hunger.jpg",
+        "rating" : ""
+    },
+    {
+        "id": 26,
+        "name": "The Famished Road",
+        "award" : "booker",
+        "price": 12.50,
+        "year_won" : 1991,
+        "publisher": "Jonathan Cape",
+        "blurb" : "The narrator, Azaro, is an abiku, a spirit child, who in the Yoruba tradition of Nigeria exists between life and death. The life he foresees for himself and the tale he tells are full of sadness and tragedy, but inexplicably he is born with a smile on his face. Nearly called back to the realm of the dead, he is resurrected to confront the tension between the land of the living, often joyful despite violence and political struggles, and the temptations of the carefree kingdom of the spirits.",
+        "publish_date": "March 14, 1991",
+        "author" : "Ben Okri",
+        "jacket_name":"famished_road.jpg",
+        "rating" : ""
+    },
+    {
+        "id": 27,
+        "name": "Possession",
+        "award" : "booker",
+        "price": 12.50,
+        "year_won" : 1990,
+        "publisher": "Chatto & Windus",
+        "blurb" : "Maud Bailey is a scholar researching the life and work of her distant relative, a little known 19th-century poet named Christabel LaMotte. Roland Mitchell is looking into an obscure moment in the life of another Victorian poet, the celebrated Randolph Henry Ash. Together, the two uncover a dark secret in Ash’s life: though apparently happily married, he conducted a torrid affair with LaMotte that has never before come to light. As Maud and Roland dig into the facts, they also find themselves falling in love.",
+        "publish_date": "1990",
+        "author" : "Barry Unsworth",
+        "jacket_name":"possession.jpg",
+        "rating" : ""
     }
-   
+      
    
   ]
 }

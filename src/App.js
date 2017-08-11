@@ -24,7 +24,7 @@ class PrizeList extends Component {
     return (
       <div className="prize">
       <h2>The Man Booker Prize for Fiction </h2>
-      <div className='explanation'> The Booker Prize is a literary award , awarded each year for best original novel written in the English language and published in the United Kingdom. The Man Booker Prize was established in 1969. The winner receives £50,000 as well as the £2,500 awarded to each of the shortlisted authors</div>
+      <div className='explanation'> The Booker Prize is a literary award , awarded each year for best original novel written in the English language and published in the United Kingdom. The Man Booker Prize was established in 1969. The winner receives £50,000 as well as the £2,500 awarded to each of the shortlisted authors.</div>
         <div>
             {books.books.map((book,index) => { 
                 var jacket = book.jacket_name ? main.state.jackets[book.jacket_name] : undefined;
