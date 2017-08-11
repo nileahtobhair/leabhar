@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+$font-family : gotham,sans-serif,Helvetica, Arial;
+$main-background-color : #090725;
+
+$font-name: "gotham";
+$font-path: '../fonts/gotham/gotham';
+
+
+@mixin max-width($ppx) {
+    @media screen and (max-width: $ppx) {
+        @content;
+    }
+}
+
+@mixin font-loader($name,$path,$svg_name){
+	@font-face{
+	    font-family: $name;
+	    src:    url($path+'.eot');
+	    src:    url($path+'.woff2') format('woff2'),
+	            url($path+'.woff') format('woff'),
+	            url($path+'.ttf') format('truetype'),
+	            url($path+'.svg#'+$svg_name) format('svg'),
+	            url($path+'.eot?#iefix') format('embedded-opentype');
+	    font-weight: normal;
+	    font-style: normal;
+	}
+}
+
+@include font-loader('gotham',$font-path,'GothamLight');
