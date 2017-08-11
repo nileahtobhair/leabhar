@@ -1,0 +1,12 @@
+.gallery{
+	display: flex;
+	  flex-wrap: wrap;
+	  justify-content: space-around;
+	.entry{
+		margin:5px;
+		img{
+			height: 250px;
+		
+		}
+	}
+}
