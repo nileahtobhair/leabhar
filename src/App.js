@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './scss/_main.scss';
 import books from './books.json';
+import Header from './header';
 
 class PrizeList extends Component {
 
@@ -22,6 +23,8 @@ class PrizeList extends Component {
   render() {
     var main = this;
     return (
+      <div>
+      <Header/>
       <div className="prize">
       <h2>The Man Booker Prize for Fiction </h2>
       <div className='explanation'> The Booker Prize is a literary award , awarded each year for best original novel written in the English language and published in the United Kingdom. The Man Booker Prize was established in 1969. The winner receives £50,000 as well as the £2,500 awarded to each of the shortlisted authors.</div>
@@ -44,10 +47,9 @@ class PrizeList extends Component {
             })}
         </div>
       </div>
+      </div>
     );
   }
 }
-
-
 
 export default PrizeList;
