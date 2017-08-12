@@ -27,4 +27,20 @@ $font-path: '../fonts/gotham/gotham';
 	}
 }
 
+@mixin transform($transforms) {
+	   -moz-transform: $transforms;
+	     -o-transform: $transforms;
+	    -ms-transform: $transforms;
+	-webkit-transform: $transforms;
+          transform: $transforms;
+}
+
+@mixin scale($scale) {
+	 @include transform(scale($scale));
+} 
+
+@mixin translate ($x, $y) {
+   @include transform(translate($x, $y));
+}
+
 @include font-loader('gotham',$font-path,'GothamLight');

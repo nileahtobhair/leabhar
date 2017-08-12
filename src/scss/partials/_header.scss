@@ -1,0 +1,24 @@
+.header-menu{
+	display: flex;
+	justify-content: flex-start;
+	border-bottom : 1px solid white;
+	.links{
+		display: flex;
+		justify-content: space-between;
+		color:#fff;
+		list-style: none;
+		text-decoration: none;
+		margin:0;
+		padding:0;
+		li{
+			padding:10px;
+			margin:0;
+
+		}
+		a{
+			color:#fff;
+			text-decoration: none;
+			font-size:12px;
+		}
+	}
+}
