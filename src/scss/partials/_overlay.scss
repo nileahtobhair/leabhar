@@ -18,7 +18,6 @@
 	.header{
 		display: flex;
 		justify-content: space-between;
-		padding:5px 0;
 		.lhs{
 			display: flex;
 
@@ -39,11 +38,26 @@
 		.close{
 			cursor: pointer;
 		}
-
+	}
+	.information{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
 	}
 	.blurb{
 		line-height:22px;
 		margin-top:10px;
+	}
+	.footer{
+		margin-top:10px;
+		display: flex;
+		justify-content: space-between;
+		div{
+			border:1px solid white;
+			border-radius:2px;
+			padding:5px 2px;
+			cursor: pointer;
+		}
 	}
 	
 }	

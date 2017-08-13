@@ -1,7 +1,19 @@
-"books" : {
-	
-		"name" : "",
-		"year_of_release" : "",
-		"summary" : "",
-		"copies_sold" : ""
+{ "lists": [
+    {
+        "id": 1,
+        "name": "The Man Booker Prize for Fiction",
+        "shortname" : "booker",
+        "access" : "booker",
+        "explanation" : ""
+    },
+    {
+        "id": 2,
+        "name": "The Putlizer Prize",
+        "shortname" : "booker",
+        "access" : "booker"
+    }
+      
+   
+  ]
 }
+   
