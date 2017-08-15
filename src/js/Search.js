@@ -38,17 +38,22 @@ class Search extends Component {
 		</div>
 	)
   }
+
   /* Main render method  */
   render() {
     var main = this;
     return (
-      <div className="search-results">
-        <h1>{main.props.term}</h1>
-        { main.props.term !== undefined && main.props.term !== '' ?
-        	<span> {main.search_books()} </span>
-        	: null
-    	}
-      </div>
+    	<span>
+    	{ main.props.visible ?
+	    	<div className="search-results">
+		        <h1>{main.props.term}</h1>
+		        { main.props.term !== undefined && main.props.term !== '' ?
+		        	<span> {main.search_books()} </span>
+		        	: null
+		    	}
+	      </div>
+      : null }
+      </span>
     )
   }
 }

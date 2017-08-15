@@ -50,7 +50,7 @@ class Header extends Component {
             }
           </form>
         </div>
-        <Search term={main.state.search_value}></Search>
+        <Search term={main.state.search_value} visible={main.state.show_search}></Search>
       </div>
     )
   }
