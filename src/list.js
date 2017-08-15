@@ -4,7 +4,7 @@ import books from './books.json';
 import Header from './header';
 
 class PrizeList extends Component {
-
+  
   /* Load jacket images dynamically */
   get_jackets(r) {
     let images = {};
