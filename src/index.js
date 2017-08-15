@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import PrizeList from './App';
+import PrizeList from './list';
 import Gallery from './gallery';
 import lists from './list.json';
 import registerServiceWorker from './registerServiceWorker';

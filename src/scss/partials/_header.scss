@@ -31,4 +31,19 @@
 		max-height:35px;
 		height:auto;
 	}
+	.search{
+		input {
+			border:none;
+			
+			background-color: $main-background-color;
+			
+		}
+		input:focus{
+			outline:none;
+			border-bottom:1px solid white;
+			height:20px;
+			margin-top:15px;
+			margin-left:10px;
+		}
+	}
 }

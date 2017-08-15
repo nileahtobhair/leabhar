@@ -101,7 +101,7 @@
 }
 
 
-// ----- Demo ----- //
+
 
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
 
@@ -126,8 +126,6 @@ $army-green: #596448;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
-
-// Demo Styles
 
 body {
 /*	color: #2b2b2b;
@@ -194,9 +192,10 @@ h2 {
 }
 
 .modal-overlay {
-	/*background-color: $army-green;*/
 	background-color: rgba(9,7,37,0.8);
-	color: white;
+	a{
+		color: white;
+	}
 	padding: 3em 5%;
 
 	h2 {

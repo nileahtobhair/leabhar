@@ -4,6 +4,9 @@ import logo from './logo.png'
 
 class Header extends Component {
 
+  update_search_value(){
+
+  }
 
   render() {
     return (
@@ -13,6 +16,7 @@ class Header extends Component {
           <li><a href='/booker'>Booker</a></li>
           <li><a href='/booker'>Putlizer</a></li>
         </ul>
+        <form className='search'><input type="text" className='search-input'/></form>
       </div>
     )
   }
