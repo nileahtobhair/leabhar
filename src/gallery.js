@@ -5,7 +5,7 @@ import Header from './header';
 
 class Gallery extends Component {
 
-  /* Load jacket images dynamically */
+  /* Load book jacket images dynamically */
   get_jackets(r) {
     let images = {};
     r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); return 0; });
@@ -22,15 +22,18 @@ class Gallery extends Component {
       extended_book : undefined
     }
   }
+
+  /* Trigger on book jacket click from gallery.
+   * Set the click book information to state variable to be used in modal. 
+   */
   extend_book(book){
-    console.log('in extended book '+book);
     this.setState({
       extended : true,
       extended_book : book
     })
   }
 
-  /*  Render a gallery of images imported from json file. */
+  /* Render a gallery of images imported from json file. */
   render() {
     var main = this;
     var extended_book = this.state.extended_book !== undefined ? this.state.extended_book : undefined;
