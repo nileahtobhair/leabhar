@@ -10,9 +10,8 @@ class Header extends Component {
       <div className="header-menu">
         <ul className='links'>
           <li><a href='/'><img className='logo' src={logo} alt='site-logo'/></a></li>
-          <li><a href='/'>Home</a></li>
           <li><a href='/booker'>Booker</a></li>
-           <li><a href='/booker'>Putlizer</a></li>
+          <li><a href='/booker'>Putlizer</a></li>
         </ul>
       </div>
     )

@@ -158,8 +158,8 @@ module.exports = {
           {
             test: /\.scss$/,
             include: paths.appSrc,
-            use: ['style-loader', 'css-loader', 'sass-loader?sourceMap=true']
-          },
+            use: ['style-loader', 'css-loader', 'sass-loader?sourceMap=true&includePaths[]=' + path.resolve(__dirname, "../node_modules/compass-mixins/lib")]
+             },
 
           // "postcss" loader applies autoprefixer to our CSS.
           // "css" loader resolves paths in CSS and adds assets as dependencies.
