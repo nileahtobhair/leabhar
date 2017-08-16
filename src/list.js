@@ -23,6 +23,7 @@ class PrizeList extends Component {
   render() {
     var main = this;
     return (
+      
       <div>
       <Header/>
       <div className="prize">
