@@ -1,5 +1,3 @@
-Leabhar Book App
-
 
 ![alt text](http://niamhlawlor.com/assets/leabhar-logo.png "Leabhar Thumbnail")
 
