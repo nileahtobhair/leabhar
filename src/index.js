@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import PrizeList from './list';
 import Gallery from './gallery';
-import lists from './list.json';
 import registerServiceWorker from './registerServiceWorker';
 
 import { BrowserRouter , Route } from 'react-router-dom'

@@ -47,10 +47,7 @@ class Gallery extends Component {
           
           {books.books.map((book,index) => { 
               var jacket = book.jacket_name ? main.state.jackets[book.jacket_name] : undefined;
-              var extended_book = this.state.extended_book !== undefined ? this.state.extended_book : undefined;
-              var extended_jacket = this.state.extended_book !== undefined && extended_book.jacket_name ? main.state.jackets[extended_book.jacket_name] : undefined;
-             
-              return (
+               return (
                 <article key={'gallery'+index} className="demo-modal-mixin">
                   <a onClick={ (e) => main.extend_book(book)} href={"#fade"} className="entry demo-link">
                     { jacket !== undefined ?
@@ -64,7 +61,7 @@ class Gallery extends Component {
             })}
         </div>
         <dialog className="modal-overlay fade" id={"fade"}>
-          <a href="#" className="demo-btn-close">Close</a>
+          <a href="/#" className="demo-btn-close">Close</a>
           {main.state.extended_book !== undefined ?
             <div className='book-overlay'>
               <div className='cover'>
