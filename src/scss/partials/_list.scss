@@ -38,11 +38,14 @@
 		img{	
 			max-height:400px;
 			@include max-width(599px) {
-				max-height:175px;
+				max-height:250px;
 				display: block;
 				margin:0 auto;
 				margin-bottom:10px;
 
+			}
+			@include max-width(399px) {
+				max-height:175px;
 			}
 		}
 		.information{
