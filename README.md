@@ -1,5 +1,5 @@
 
-![alt text](http://niamhlawlor.com/assets/leabhar-logo.png "Leabhar Thumbnail")
+![alt text](http://niamhlawlor.com/assets/leabhar-logo.png "Leabhar Application Thumbnail")
 
 Leabhar
 -----
@@ -17,5 +17,5 @@ The idea is to expand on the current functionality and allow users to rate and s
 | -------------         |:--------------------------------:                   | 
 | Technologies      	| Javscript, Json, SCSS                               | 
 | Libraries/Frameworks  | ReactJS, Compass                                    |
-| Open Source           | 													  |
-| Live Demo             | 												      |
+| Open Source           | [Yes] (https://github.com/nileahtobhair/leabhar  	  |
+| Live Demo             | [Here](https://leabhar.herokuapp.com/) 			  |
