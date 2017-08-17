@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import './main.scss';
-import logo from './logo.png';
-import search from './search_icon.svg';
-import close from './close_icon.svg';
-import Search from './js/Search.js';
+import '../main.scss';
+import logo from '../logo.png';
+import search from '../search_icon.svg';
+import close from '../close_icon.svg';
+import Search from '../js/Search.js';
 
 class Header extends Component {
 

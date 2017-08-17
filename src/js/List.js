@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './main.scss';
-import books from './books.json';
-import Header from './header';
-import Footer from './js/Footer';
+import '../main.scss';
+import books from '../books.json';
+import Header from './Header';
+import Footer from './Footer';
 
 class PrizeList extends Component {
   
@@ -15,7 +15,7 @@ class PrizeList extends Component {
   /* Set intial state and load the images needed . */
   constructor(){
     super();
-    var images = this.get_jackets(require.context('./jackets', false, /\.(png|jpe?g|svg)$/));
+    var images = this.get_jackets(require.context('../jackets', false, /\.(png|jpe?g|svg)$/));
      this.state = {
       jackets : images
     }
@@ -33,21 +33,21 @@ class PrizeList extends Component {
         Listed below are all the winners of the award since its inception in 1969.</div>
           <div>
               {books.books.map((book,index) => { 
-                  var jacket = book.jacket_name ? main.state.jackets[book.jacket_name] : undefined;
-                  return (
-                    <div key={'booker'+index} className='entry'>
-                      { jacket !== undefined ?
-                        <img src={jacket} alt={"Book Jacket for "+book.name} />
-                      : null }
-                      <div className='information'>
-                        <h3 className='title'>{book.name}</h3>
-                        <div>{book.author}</div>
-                        <div className='year'>{book.year_won}</div>
-                        <div>{book.blurb}</div>
-                        <Footer/>
-                      </div>  
-                    </div>
-                  )
+                var jacket = book.jacket_name ? main.state.jackets[book.jacket_name] : undefined;
+                return (
+                  <div key={'booker'+index} className='entry'>
+                    { jacket !== undefined ?
+                      <img src={jacket} alt={"Book Jacket for "+book.name} />
+                    : null }
+                    <div className='information'>
+                      <h3 className='title'>{book.name}</h3>
+                      <div>{book.author}</div>
+                      <div className='year'>{book.year_won}</div>
+                      <div>{book.blurb}</div>
+                      <Footer/>
+                    </div>  
+                  </div>
+                )
               })}
           </div>
         </div>

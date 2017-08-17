@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import PrizeList from './list';
-import Gallery from './gallery';
+import PrizeList from './js/List';
+import Gallery from './js/Gallery';
 import registerServiceWorker from './registerServiceWorker';
 
 import { BrowserRouter , Route } from 'react-router-dom'
