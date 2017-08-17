@@ -17,5 +17,5 @@ The idea is to expand on the current functionality and allow users to rate and s
 | -------------         |:--------------------------------:                   | 
 | Technologies      	| Javscript, Json, SCSS                               | 
 | Libraries/Frameworks  | ReactJS, Compass                                    |
-| Open Source           | [Yes] (https://github.com/nileahtobhair/leabhar  	  |
+| Open Source           | [Yes](https://github.com/nileahtobhair/leabhar) 	  |
 | Live Demo             | [Here](https://leabhar.herokuapp.com/) 			  |
