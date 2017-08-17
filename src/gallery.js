@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './main.scss';
 import books from './books.json';
 import Header from './header';
+import Footer from './js/Footer';
 
 class Gallery extends Component {
 
@@ -78,12 +79,7 @@ class Gallery extends Component {
                   </div>
                 </div>
                 <div className='blurb'>{extended_book.blurb}</div>
-                  <div className='footer'>
-                    <div>Add to ToRead</div>
-                    <div>Add to Read</div>
-                    <div>Buy on Amazon</div>
-                    <div>Rate</div>
-                  </div>
+                  <Footer/>
                 </div>
               </div>
             : null }

@@ -60,7 +60,7 @@
 	.information{
 		display: flex;
 		flex-direction: column;
-		justify-content: space-around;
+		/*justify-content: space-around;*/
 	}
 	.blurb{
 		line-height:22px;
@@ -72,16 +72,4 @@
 			line-height:20px;
 		}
 	}
-	.footer{
-		margin-top:10px;
-		display: flex;
-		justify-content: space-between;
-		div{
-			border:1px solid white;
-			border-radius:2px;
-			padding:5px 2px;
-			cursor: pointer;
-		}
-	}
-	
 }	

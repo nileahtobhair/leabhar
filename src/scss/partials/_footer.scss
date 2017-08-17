@@ -1,0 +1,31 @@
+
+.footer{
+	.rate{
+		list-style: none;
+		margin-top:15px;
+		li{
+			float:left;
+			margin-right:5px;
+			img {
+				width:45px;
+			}
+			img:hover{
+				fill:#000;
+			}
+		}
+	}
+	margin-top:10px;
+	display: flex;
+	justify-content: space-between;
+	div{
+		padding:5px 2px;
+		cursor: pointer;
+	}
+	.amazon{
+		width:50px;
+		margin-top:10px;
+	}
+	.read{
+		width:70px;
+	}
+}
