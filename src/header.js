@@ -37,18 +37,22 @@ class Header extends Component {
             <li><a href='/booker'>Booker</a></li>
             <li><a href='/booker'>Putlizer</a></li>
           </ul>
-          <form className='search'>
-            {main.state.show_search ? 
-            <div className='search-container'>
-              <img className='close' onClick={ (e) => main.toggle_search_bar()} src={close} alt="search icon - show input"/>
-              <input value={main.state.search_value} onChange={(e)=> main.update_search_value(e)} type="text" className='search-input'/>
-            </div>
+          <span>
+          { main.state.show_search ? 
+            <form className='search expanded-search'>
+              <div className='search-container expanded'>
+                <img className='close' onClick={ (e) => main.toggle_search_bar()} src={close} alt="search icon - show input"/>
+                <input value={main.state.search_value} onChange={(e)=> main.update_search_value(e)} type="text" className='search-input'/>
+              </div>
+            </form>
             : 
-            <div className='search-container'>
-              <img onClick={ (e) => main.toggle_search_bar()} src={search} alt="close icon - close input"/>
-            </div>
+              <form className='search'>
+                <div className='search-container '>
+                  <img onClick={ (e) => main.toggle_search_bar()} src={search} alt="close icon - close input"/>
+                </div>
+             </form>
             }
-          </form>
+          </span>
         </div>
         <Search term={main.state.search_value} visible={main.state.show_search}></Search>
       </div>

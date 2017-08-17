@@ -49,6 +49,11 @@
 		    margin-top:7px;
 		}
 	}
+	@include max-width(599px) {
+		.expanded-search{
+			height:100px;
+		}
+	}
 	.search{
 		input {
 			border:none;
@@ -59,13 +64,27 @@
 			margin-top :20px;
 			color:#fff;
 		}
+		@include max-width(599px) {
+			.search-container.expanded{
+				display:block;
+				position: absolute;
+				left:50%;
+				top:40px;
+				@include translateX(-50%);
+				.close{
+					width:30px;
+					float:left;
+				}
+				input{
+					float:right;
+				}
+			}
+			
+		}
 		.search-container{
 			display: flex;
 			justify-content: flex-start;
-			@include max-width(599px) {
-				display: block;
-				margin:0 auto;
-			}
+			
 			img{
 				height:30px;
 				margin-top:20px;

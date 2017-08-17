@@ -46,4 +46,8 @@ $font-path: './fonts/gotham/gotham';
    @include transform(translate($x, $y));
 }
 
+@mixin translateX ($x) {
+   @include transform(translateX($x));
+}
+
 @include font-loader('gotham',$font-path,'GothamLight');
