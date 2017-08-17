@@ -27,11 +27,11 @@
 			max-height: 350px;
 		}
 	}
-	.header{
-		display: flex;
-		justify-content: space-between;
+	.high{
+		/*display: flex;
+		justify-content: space-between;*/
 		
-		.lhs{
+		.header{
 			display: flex;
 			@include max-width(599px){
 				display: block;
@@ -60,7 +60,7 @@
 	.information{
 		display: flex;
 		flex-direction: column;
-		/*justify-content: space-around;*/
+		justify-content: space-between;
 	}
 	.blurb{
 		line-height:22px;

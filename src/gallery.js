@@ -72,15 +72,15 @@ class Gallery extends Component {
                 <img src={extended_jacket} alt={"Book Jacket for "+extended_book.name} />
             </div>
             <div className='information'>
-              <div className='header'>
-                <div className='lhs'>
+              <div className='high'>
+                <div className='header'>
                   <div className='name'>{extended_book.name}</div>
-                    <div className='author'>{extended_book.author}</div>
-                  </div>
+                  <div className='author'>{extended_book.author}</div>
                 </div>
                 <div className='blurb'>{extended_book.blurb}</div>
-                  <Footer/>
-                </div>
+              </div>
+              <Footer/>
+            </div>
               </div>
             : null }
           </dialog>
