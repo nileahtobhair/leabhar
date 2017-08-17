@@ -129,6 +129,13 @@ module.exports = {
         include: paths.appSrc,
       },
       {
+        test: /\.scss$/,
+        use: ExtractTextPlugin.extract({
+          fallback: 'style-loader',
+          use: ['css-loader', 'sass-loader?sourceMap=true&includePaths[]=' + path.resolve(__dirname, "../node_modules/compass-mixins/lib")]
+        })
+      },
+      {
         // "oneOf" will traverse all following loaders until one will
         // match the requirements. When no loader matches it will fall
         // back to the "file" loader at the end of the loader list.
@@ -228,8 +235,9 @@ module.exports = {
         ],
       },
     ],
-  },
+  } ,
   plugins: [
+    new ExtractTextPlugin('main.css'),
     // Makes some environment variables available in index.html.
     // The public URL is available as %PUBLIC_URL% in index.html, e.g.:
     // <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">

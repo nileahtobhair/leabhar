@@ -7,7 +7,7 @@ $font-family : gotham,sans-serif,Helvetica, Arial;
 $main-background-color : #090725;
 
 $font-name: "gotham";
-$font-path: '../fonts/gotham/gotham';
+$font-path: './fonts/gotham/gotham';
 
 
 @mixin max-width($ppx) {

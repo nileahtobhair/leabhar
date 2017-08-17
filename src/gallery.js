@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './scss/_main.scss';
+import './main.scss';
 import books from './books.json';
 import Header from './header';
 
