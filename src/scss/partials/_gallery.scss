@@ -8,7 +8,9 @@
 		margin-right:12.7px;
 		img{
 			height: 250px;
-		
+			@include max-width(599px){
+				height:200px;
+			}
 		}
 	}
 }

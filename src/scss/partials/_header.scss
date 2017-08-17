@@ -53,6 +53,20 @@
 		.expanded-search{
 			height:100px;
 		}
+		.search-container.expanded{
+			display:block;
+			position: absolute;
+			left:50%;
+			top:40px;
+			@include translateX(-50%);
+			.close{
+				width:30px;
+				float:left;
+			}
+			input{
+				float:right;
+			}
+		}
 	}
 	.search{
 		input {
@@ -63,23 +77,6 @@
 			height:20px;
 			margin-top :20px;
 			color:#fff;
-		}
-		@include max-width(599px) {
-			.search-container.expanded{
-				display:block;
-				position: absolute;
-				left:50%;
-				top:40px;
-				@include translateX(-50%);
-				.close{
-					width:30px;
-					float:left;
-				}
-				input{
-					float:right;
-				}
-			}
-			
 		}
 		.search-container{
 			display: flex;
